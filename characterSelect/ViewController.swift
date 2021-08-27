@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Continue: UIButton!
     var thisOrThat = false
     var pCharacter = 0
-    var accecories = 0
+    var accecories = [false, false, false]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -37,7 +37,18 @@ class ViewController: UIViewController {
     }
     func updateImage()
     {
-        
+        if pCharacter == 1
+        {
+            
+        }
+        else if pCharacter == 2
+        {
+            
+        }
+        else
+        {
+            
+        }
     }
     @IBAction func continuation(_ sender: Any) {
         
