@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var thisOrThat = false
     var pCharacter = 0
     var accecories = [false, false, false]
+    var tester = true
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
