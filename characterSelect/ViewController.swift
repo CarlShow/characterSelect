@@ -87,7 +87,7 @@ class ViewController: UIViewController {
             }
             else if pCharacter == 2
             {
-                notImage.image = UIImage(named: "squatty")
+                notImage.image = UIImage(named: "ultraSquatty")
             }
             else
             {
